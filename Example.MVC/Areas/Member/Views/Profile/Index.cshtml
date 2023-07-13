@@ -1,0 +1,81 @@
+﻿@model Example.MVC.Areas.Member.Models.UserEditViewModel
+
+@{
+    ViewData["Title"] = "Index";
+
+   
+   
+}
+@*<form method="post" enctype="multipart/form-data">
+    @Html.Label("Adınız")
+    <input type="text" placeholder="Adınız" asp-for="name" class="form-control" />
+    <br/>
+    @Html.Label("Soyadınız")
+    <input type="text" placeholder="Soyadınız" asp-for="surname" class="form-control" />
+    <br />
+    @Html.Label("Mail Adresiniz")
+    <input type="text" placeholder="Mailiniz" asp-for="mail" class="form-control" />
+    <br />
+    @Html.Label("Şifreniz")
+    <input type="text" placeholder="Şifreniz" asp-for="password" class="form-control" />
+    <br />
+    @Html.Label("Şifre Tekrar")
+    <input type="text" placeholder="Şifre Tekrar" asp-for="confirmpasword" class="form-control" />
+    <br />
+    <button class="btn btn-primary">Bilgileri Güncelle</button>
+</form>*@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Profil Düzenleme Sayfası</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- LINEARICONS -->
+	<link rel="stylesheet" href="~/colorlib-regform-26/fonts/linearicons/style.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="~/colorlib-regform-26/css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="inner">
+			<img src="~/colorlib-regform-26/images/image-1.png" alt="" class="image-1">
+			<form action="" method="post" enctype="multipart/form-data">
+				<h3>Profilini Düzenle</h3>
+				<div class="form-holder">
+					<span class="lnr lnr-user"></span>
+					<input type="text" class="form-control" asp-for="name" placeholder="Ad">
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-star"></span>
+					<input type="text" class="form-control" asp-for="surname" placeholder="Soyad">
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-envelope"></span>
+					<input type="text" class="form-control" asp-for="mail"  placeholder="Mail">
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-lock"></span>
+					<input type="password" class="form-control" asp-for="password"  placeholder="Şifre">
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-lock"></span>
+					<input type="password" class="form-control" asp-for="confirmpasword"  placeholder="Şifre Tekrar">
+				</div>
+				<button class="btn btn-primary">
+					<span>Kaydet</span>
+				</button>
+			</form>
+			<img src="images/image-2.png" alt="" class="image-2">
+		</div>
+
+	</div>
+
+	<script src="~/colorlib-regform-26js/jquery-3.3.1.min.js"></script>
+	<script src="~/colorlib-regform-26js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

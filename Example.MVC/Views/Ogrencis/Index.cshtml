@@ -1,0 +1,100 @@
+﻿@using Example.MVC.Core.Entities
+@model List<Ogrenciler>
+@{
+
+    ViewData["Title"] = "Ogrenciler";
+}
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Öğrenciler</h1>
+    <p class="mb-4">
+        Ögrenciler Tablosu
+    </p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Tablo</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <div class=" dt-bootstrap4">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+
+                                <tbody>
+                                    <th class="sorting sorting_desc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending" style="width: 50px;" aria-sort="descending">Öğrenci No</th>
+                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 48.4219px;">Ad</th>
+                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 48.4219px">Soyad</th>
+                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 48.4219px;">Bölüm No</th>
+                                <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 48.4219px;">Kaydı Güncelle</th>
+                                <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 48.4219px;">Kaydı Sil</th>
+                                    @foreach (var x in Model)
+                                    {
+
+                                        <tr class="odd">
+                                            <td>@x.Id</td>
+                                            <td class="sorting_1">@x.Ad</td>
+                                            <td class="sorting_1">@x.Soyad</td>
+                                            <td class="sorting_1">@x.BolumId</td>
+
+                                        <td class="sorting_1"><a class="btn btn-info" asp-action="ogrencikaydiguncelle" asp-route-id="@x.Id">Güncelle</a></td>
+                                        <td class="sorting_1"><a class="btn btn-danger" asp-action="ogrencikaydisil" asp-route-id="@x.Id">Sil</a></td>
+                                    </tr>
+                                           
+
+                                        
+                                    }
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+ Öğrenci Kaydı Ekle
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ekle</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form asp-action="Index" method="post">
+           <input type="text" placeholder="Adınız" class="form-control ab-2" name="Ad"/>
+          <input type="text" placeholder="Soyadınız" class="form-control ab-2" name="Soyad"/>
+                    <input type="text" placeholder="BolumNo" class="form-control ab-2" name="BolumId" />
+                    <input type="hidden" placeholder="OgrenciNo" class="form-control ab-2" name="Id" />
+
+          <button class="btn btn-success" type="submit"/>Öğrenci Kaydı Ekle</button>
+     </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@*<table class="table table-striped table-hover">
+    @foreach(var item in  ViewBag.ogrenciler as List<Ogrenciler>)
+{
+    <tr>
+    <td>@item.Id</td>
+    <td><a class="btn btn-info" asp-action="ogrencikaydiguncelle" asp-route-Id="Id">Kaydı Güncelle</a></td>
+    </tr>
+}
+</table>*@

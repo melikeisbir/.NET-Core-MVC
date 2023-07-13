@@ -1,0 +1,85 @@
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.AssemblyReference.cache
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfoInputs.cache
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfo.cs
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CoreCompileInputs.cache
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.deps.json
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.dll
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.pdb
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.dll
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.pdb
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CopyComplete
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.dll
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\refint\Example.MVC.Data.dll
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.pdb
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\ref\Example.MVC.Data.dll
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.runtimeconfig.json
+C:\Projects\2023\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.genruntimeconfig.cache
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.deps.json
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.runtimeconfig.json
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.dll
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.pdb
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.dll
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.pdb
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.AssemblyReference.cache
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfoInputs.cache
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfo.cs
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CoreCompileInputs.cache
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CopyComplete
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.dll
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\refint\Example.MVC.Data.dll
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.pdb
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.genruntimeconfig.cache
+D:\0-tema\Example.MVC-v0.1\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\ref\Example.MVC.Data.dll
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.deps.json
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.runtimeconfig.json
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.dll
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.pdb
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.dll
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.pdb
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.AssemblyReference.cache
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfoInputs.cache
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfo.cs
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CoreCompileInputs.cache
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CopyComplete
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.dll
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\refint\Example.MVC.Data.dll
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.pdb
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.genruntimeconfig.cache
+C:\Users\CASPER\OneDrive\Masaüstü\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\ref\Example.MVC.Data.dll
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.deps.json
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.runtimeconfig.json
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.dll
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.pdb
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.dll
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.pdb
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.AssemblyReference.cache
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfoInputs.cache
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfo.cs
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CoreCompileInputs.cache
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CopyComplete
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.dll
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\refint\Example.MVC.Data.dll
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.pdb
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.genruntimeconfig.cache
+C:\Users\CASPER\OneDrive\Masaüstü\MVCFrameworkCodeFirst\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\ref\Example.MVC.Data.dll
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.deps.json
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.runtimeconfig.json
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.dll
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Data.pdb
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.dll
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\bin\Debug\net6.0\Example.MVC.Core.pdb
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.AssemblyReference.cache
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfoInputs.cache
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.AssemblyInfo.cs
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CoreCompileInputs.cache
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.csproj.CopyComplete
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.dll
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\refint\Example.MVC.Data.dll
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.pdb
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\Example.MVC.Data.genruntimeconfig.cache
+C:\Users\Melike İSBİR\Desktop\Example.MVC\Example.MVC.Data\obj\Debug\net6.0\ref\Example.MVC.Data.dll

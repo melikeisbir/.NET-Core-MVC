@@ -1,0 +1,54 @@
+﻿@using Example.MVC.Core.Entities
+@model List<Bolumler>
+@{
+
+    ViewData["Title"] = "Bölümler";
+
+}
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Bölümler</h1>
+    <p class="mb-4">
+        Bölümler Tablosu
+    </p>
+
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Tablo</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <div class=" dt-bootstrap4">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+
+                                <tbody>
+                                      <th class="sorting sorting_desc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending" style="width: 50px;" aria-sort="descending">Bölüm No</th>
+                                <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 48.4219px;">Bölüm Adı</th>
+                              
+                             
+                                    @foreach (var x in Model)
+                                    {
+
+                                        <tr class="odd">
+                                            <td>@x.Id</td>
+                                            <td class="sorting_1">@x.BolumAdi</td>
+                                            
+
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

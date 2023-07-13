@@ -1,0 +1,77 @@
+﻿@model Example.MVC.Models.UserRegisterViewModel
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Öğrenci Kayıt Sistemi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- LINEARICONS -->
+	<link rel="stylesheet" href="~/colorlib-regform-26/fonts/linearicons/style.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="~/colorlib-regform-26/css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="inner">
+			<img src="images/image-1.png" alt="" class="image-1">
+			<form action="" method="post">
+				<h3>Kayıt Ol</h3>
+				<div class="form-holder">
+					<span class="lnr lnr-user"></span>
+					<input type="text" class="form-control" asp-for="Adiniz"  placeholder="Adınız">
+					<span asp-validation-for="Adiniz" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-star"></span>
+					<input type="text" class="form-control" asp-for="Soyadiniz" placeholder="Soyadınız">
+					<span asp-validation-for="Soyadiniz" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-envelope"></span>
+					<input type="text" class="form-control" asp-for="UserName" placeholder="Kullanıcı Adınız">
+					<span asp-validation-for="UserName" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-envelope"></span>
+					<input type="email" class="form-control" asp-for="Mail" placeholder="Mailiniz">
+					<span asp-validation-for="Mail" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-lock"></span>
+					<input type="password" class="form-control" asp-for="Password" placeholder="Şifreniz">
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<div class="form-holder">
+					<span class="lnr lnr-lock"></span>
+					<input type="password" class="form-control" asp-for="ConfirmPassword" placeholder="Şifre Tekrar">
+					<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+				</div>
+				<div class="text-danger" asp-validation-summary="ModelOnly">
+				</div>
+
+				<label class="container">
+					Şartları okudum, kabul ediyorum.<a href="#"></a>
+					<input type="checkbox">
+					<span class="checkmark"></span>
+				</label>
+				<button class="btn">Kayıt Ol</button>
+				@*<button>
+					<span>Kayıt Ol</span>
+				</button>*@
+			</form>
+			<img src="~/colorlib-regform-26/images/image-2.png" alt="" class="image-2">
+		</div>
+
+	</div>
+
+	<script src="~/colorlib-regform-26/js/jquery-3.3.1.min.js"></script>
+	<script src="~/colorlib-regform-26/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

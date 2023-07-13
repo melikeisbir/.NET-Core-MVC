@@ -1,0 +1,15 @@
+﻿@model Example.MVC.Core.Entities.Ogrenciler
+@{
+    ViewData["Title"] = "ogrencikaydiguncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Öğrenci Kaydını Güncelle</h1>
+<form asp-action="ogrencikaydiguncelle" method="post">
+    <input type="hidden" asp-for="@Model.Id" />
+    <input class="form-control " placeholder="Adınız" asp-for="@Model.Ad" />
+    <input class="form-control " placeholder="Soyadınız"  asp-for="@Model.Soyad" />
+    <input class="form-control " placeholder="BölümNo" asp-for="@Model.BolumId" />
+    <button class="btn btn-info" type="submit">Öğrenci Kaydını Güncelleyin</button>
+</form>
+

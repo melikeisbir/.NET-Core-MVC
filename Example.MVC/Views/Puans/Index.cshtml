@@ -1,0 +1,65 @@
+﻿@using Example.MVC.Core.Entities
+@model List<Notlar>
+@{
+
+    
+    ViewData["Title"] = "Notlar";
+    
+
+}
+
+<div class="container-fluid">
+   
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Notlar</h1>
+    <p class="mb-4">
+       Puanlar Tablosu
+    </p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Tablo</h6>
+        </div>
+        
+        <div class="card-body">
+            <div class="table-responsive">
+                <div class=" dt-bootstrap4">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+
+                                <tbody>
+                                <th class="sorting sorting_desc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending" style="width: 50px;" aria-sort="descending"></th>
+                                <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 48.4219px;">Vize</th>
+                                <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 48.4219px">Final</th>
+                                <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 48.4219px;">Ortalama</th>
+                                <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column descending" style="width: 48.4219px;" aria-sort="ascending">Ders No</th>
+                                <th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Salary: activate to sort column descending" style="width: 48.4219px;" aria-sort="ascending">Öğrenci No</th>
+                                    @foreach (var x in Model)
+                                    {
+
+                                        <tr class="odd">
+                                           <td>@x.Id</td>
+                                            <td class="sorting_1">@x.VizeNotu</td>
+                                            <td class="sorting_1">@x.FinalNotu</td>
+                                            <td class="sorting_1">@x.Ortalama</td>
+                                            <td class="sorting_1">@x.DersId</td>
+                                            <td class="sorting_1">@x.OgrenciId</td>
+
+
+
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
